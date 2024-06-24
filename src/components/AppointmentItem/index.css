@@ -1,0 +1,28 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.main-list {
+  border: 1px solid #b5b7c4;
+  width: 250px;
+  border-radius: 11px;
+  height: 110px;
+  padding: 8px;
+}
+.inside-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-head {
+  font-weight: bold;
+}
+.list-para {
+  color: #b5b7c4;
+}
+.start-btn-style{
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
